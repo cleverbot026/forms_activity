@@ -1,0 +1,103 @@
+*{
+	font-family:"Century Gothic";
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5%;
+}
+
+a:hover, a:active {
+  background-color: grey;
+}
+
+
+.form {
+
+	background-color:#3A469C;
+	border: #0E98D7 5px solid;
+    padding:50px;
+    width: 60%
+    display:inline-block;
+}
+
+
+.form-title{
+	margin-bottom: 50px
+}
+
+.form-title p{
+	color: white;
+	font-size:15px;
+	text-align: center;
+}
+
+
+
+.form-title h1{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+.form-body{
+	display: inline-block;
+}
+
+
+label{
+	color: white;
+}
+
+input::placeholder{
+	color:#0E98D7;
+}
+
+input[type=text], input[type=Password] {
+	color:#0E98D7;
+	background-color:#3A469C; 
+	width: 100%;
+	border: none;
+	border-bottom: 2px #0E98D7 solid; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+.btns{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.btns input{
+	background-color:#3A469C;
+	border: white 1px solid;
+	padding: 10px;
+	color: white;
+    margin-right: 20px;
+}
+
+
+input [type=Submit] {
+
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	width: 100px;
+	height: 100px;
+}
+
+input[type=text]:focus,input[type=pass]:focus, {
+	outline: none;
+}
+
+h2{
+	text-align: center;
+	color: white;
+}
