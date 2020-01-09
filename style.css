@@ -1,0 +1,53 @@
+h1{
+	color: white;
+}
+
+div {
+	margin: 25px;
+}
+
+.FB{
+    padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	background-color: #faa4bd;
+	text-align: center;
+	color: #f5e3e0 ;
+	border-radius: 5%;
+	
+}
+
+
+.GM{
+	padding-top: 10px;
+	padding-right: 51px;
+	padding-left: 51px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	background-color: #f5e3e0 ;
+	text-align: center;
+	color: #faa4bd;
+	border-radius: 5%;
+	
+}
+
+.form{
+	border: #6dd6da 5px solid;
+	background-color: #ae8ca3;
+}
+
+input[type=text], input[type=password]{
+     color: black;
+     background-color: white;
+     width: 20%;
+     border: #e5ebea ;
+     order-bottom: 2px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding:5px;
+
+
+
+}
