@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+h1{
+	color: black;
+	font-family: 'Bree Serif', serif;
+}
+
+
+div {
+	margin: 25px;
+}
+
+.FB{
+    padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	background-color: #00FFFF;
+	text-align: center;
+	color: black;
+	border-radius: 5%;
+	font-family: 'Lobster', cursive;
+	border-radius: 30%;
+	
+}
+
+
+.GM{
+	padding-top: 10px;
+	padding-right: 51px;
+	padding-left: 51px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	background-color:	#00FFFF;
+	text-align: center;
+	color: black;
+	border-radius: 5%;
+	border-radius: 30%;
+	font-family: 'Lobster', cursive;
+	
+}
+
+.form{
+	border:	#0000FF 5px solid;
+	background-color: #00A5CF;
+}
+
+input[type=text], input[type=password]{
+     color: black;
+     background-color: white;
+     width: 20%;
+     border: #b6f0ff;
+     border-bottom: 2px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding:5px;
+     font-family: 'Courgette', cursive;
+}
+.form{
+	width:565px;
+	text-align: center;
+}
+input::placeholder { 
+	color:	#00008B;
+}
+input[type="submit"]{
+	font-family: 'Lobster', cursive;
+	 color:#00008B;
+}
+input[type="reset"]{
+	font-family: 'Lobster', cursive;	
+	 color:#00008B;
+}
